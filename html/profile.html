@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil dan Kontak</title>
+</head>
+<body>
+    <header>
+        <!-- Branding -->
+        <div id="brandAndNav">
+            <div id="brand">
+                <img id="logo" src="../img/Logo.png" alt="Foto 1" width="90">
+                <p><b>Knowledge<br>Pulse</b><p>
+            </div>
+            <!-- Navigasi -->
+            <nav id="nav">
+                <a href="../index.html">Home</a></li>
+                <a href="profile.html">Contact Us</a></li>
+                <a href="program.html">Programs</a></li>
+            </nav>
+        </div>
+        <div id="signupButton">
+            <a href="registration.html">Sign Up</a>
+        </div>
+        <a href="my-account.html" id="user-account-nav">
+            <div id="user-icon">
+                <img src="../img/user-icon.png" alt="user-icon">
+            </div>
+            <div id="user-username">
+            </div>
+        </a>
+    </header>
+
+    <!-- Profil Lembaga Pendidikan -->
+    <section id="profil">
+        <h1>Profil Lembaga Pendidikan</h1>
+        <ul>
+            <li>
+                <dl>
+                    <dt>Nama Lembaga</dt>
+                    <dd><strong>Knowledge Pulse</strong></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>Deskripsi</dt>
+                    <dd>Platform pendidikan yang menyediakan kursus online berkualitas dalam berbagai bidang, dengan metode belajar fleksibel dan inovatif.</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>Keunggulan</dt>
+                    <dd>Pengalaman belajar yang didukung oleh para ahli industri, memungkinkan belajar kapan saja dan di mana saja.</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>Tujuan</dt>
+                    <dd>Membantu Anda mencapai kesuksesan profesional dan pribadi melalui pengembangan keterampilan yang relevan.</dd>
+                </dl>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <div class="form-container">
+            <form action="thankyou.html" method="post">
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="message">Pesan:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Kirim">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+          <div class="footer-head">
+            <h1>Your gateway to learning.</h1>
+          </div>
+          <div class="footer-social">
+            <h2>Contact Us</h2>
+            <a href="https://instagram.com/fredericoderosari" target="_blank" class="social-icon instagram">
+              <img src="../img/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://linkedin.com/in/frederico-de-rosari-7b9a58282/" target="_blank" class="social-icon linkedin">
+              <img src="../img/linkedin-icon.png" alt="LinkedIn">
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Knowledge Pulse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

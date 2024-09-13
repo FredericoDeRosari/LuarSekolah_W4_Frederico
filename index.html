@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Lembaga Pelatihan</title>
+</head>
+<body>
+    <header>
+        <!-- Branding -->
+        <div id="brandAndNav">
+            <div id="brand">
+                <img id="logo" src="img/Logo.png" alt="Foto 1" width="90">
+                <p><b>Knowledge<br>Pulse</b><p>
+            </div>
+            <!-- Navigasi -->
+            <nav id="nav">
+                <a href="index.html">Home</a></li>
+                <a href="html/profile.html">Contact Us</a></li>
+                <a href="html/program.html">Programs</a></li>
+            </nav>
+        </div>
+        <div id="signupButton">
+            <a href="registration.html">Sign Up</a>
+        </div>
+        <a href="my-account.html" id="user-account-nav">
+            <div id="user-icon">
+                <img src="img/user-icon.png" alt="user-icon">
+            </div>
+            <div id="user-username">
+            </div>
+        </a>
+    </header>
+    
+    <!--Rekomendasi Program Teratas-->
+    
+    <section id="promotion">
+        <div id="top-program-head">
+            <p id="text-top-program-head">Recommended<br>Program</p>
+        </div>
+        <div id="top-programs">
+            <a href="html/program.html" class="top-program-container">
+                <img src="img/top-programIMG1.png" alt="Cyber Security">
+                <div class="top-program-name">Cyber Security</div>
+            </a>
+            <a href="html/program.html" class="top-program-container">
+                <img src="img/top-programIMG2.png" alt="Mobile Development">
+                <div class="top-program-name">Mobile Development</div>
+            </a>
+            <a href="html/program.html" class="top-program-container">
+                <img src="img/top-programIMG3.png" alt="Artificial Intelligence">
+                <div class="top-program-name">Artificial Intelligence</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Berita dan Artikel -->
+    <section id="berita-artikel">
+        <!-- Filter Dropdown -->
+        <div class="filter-container">
+            <label for="yearFilter">Filter by Year:</label>
+            <select id="yearFilter">
+                <option value="all">All</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+        </div>
+
+        <article>
+            <div id="news1" class="article-container" data-year="2021" onclick="location.href='html/news1.html'">
+                <h1>Revolusi Industri 4.0: Tantangan dan Peluang</h1>
+                <p>1 Januari 2021</p>
+            </div>
+            <div id="news2" class="article-container" data-year="2022" onclick="location.href='html/news2.html'">
+                <h1>Meningkatkan Keterampilan Desain Grafis di Era Digital</h1>
+                <p>2 Januari 2022</p>
+            </div>
+            <div id="news3" class="article-container" data-year="2021" onclick="location.href='html/news3.html'">
+                <h1>Kemajuan Teknologi Kecerdasan Buatan di Sektor Kesehatan</h1>
+                <p>3 Januari 2021</p>
+            </div>
+            <div id="news4" class="article-container" data-year="2023" onclick="location.href='html/news4.html'">
+                <h1>Pemanfaatan Big Data untuk Pengambilan Keputusan Bisnis</h1>
+                <p>4 Januari 2023</p>
+            </div>            
+            <div id="news5" class="article-container" data-year="2022" onclick="location.href='html/news5.html'">
+                <h1>Transformasi Digital di Dunia Pendidikan: Tantangan dan Solusi</h1>
+                <p>5 Januari 2022</p>
+            </div>         
+            <div id="news6" class="article-container" data-year="2021" onclick="location.href='html/news6.html'">
+                <h1>Peningkatan Keamanan Siber di Era Digital</h1>
+                <p>6 Januari 2021</p>
+            </div>
+            <div id="news7" class="article-container" data-year="2021" onclick="location.href='html/news7.html'">
+                <h1>Pentingnya Soft Skill di Dunia Kerja Modern</h1>
+                <p>7 Januari 2021</p>
+            </div>
+            <div id="news8" class="article-container" data-year="2022" onclick="location.href='html/news8.html'">
+                <h1>Evolusi Teknologi Blockchain di Sektor Keuangan</h1>
+                <p>8 Januari 2022</p>
+            </div>
+            <div id="news9" class="article-container" data-year="2023" onclick="location.href='html/news9.html'">
+                <h1>Pengembangan Aplikasi Mobile dengan Teknologi Terbaru</h1>
+                <p>9 Januari 2023</p>
+            </div>
+            <div id="news10" class="article-container" data-year="2022" onclick="location.href='html/news10.html'">
+                <h1>Inovasi Teknologi Ramah Lingkungan untuk Masa Depan</h1>
+                <p>10 Januari 2022</p>
+            </div>               
+        </article>
+    </section>
+
+    <!-- Galeri Foto dan Video -->
+    <section id="galeri">
+        <h2>Galeri Foto dan Video</h2>
+        <div id="galeri-foto">
+            <h3>Galeri Foto</h3>
+            <div class="slideshow-container">
+                <div class="slideshow-images">
+                    <img src="img/galeri_foto1.png" alt="Foto 1" width="700">
+                    <img src="img/galeri_foto2.png" alt="Foto 2" width="700">
+                    <img src="img/galeri_foto3.png" alt="Foto 3" width="700">
+                    <img src="img/galeri_foto4.png" alt="Foto 4" width="700">
+                    <img src="img/galeri_foto5.png" alt="Foto 5" width="700">
+                    <img src="img/galeri_foto6.png" alt="Foto 6" width="700">
+                    <img src="img/galeri_foto7.png" alt="Foto 7" width="700">
+                    <img src="img/galeri_foto8.png" alt="Foto 8" width="700">
+                    <img src="img/galeri_foto9.png" alt="Foto 9" width="700">
+                </div>
+            </div>
+        </div>
+        <div id="galeri-vidio">
+            <h3>Galeri Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/evody3B4trs?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <div class="footer-head">
+            <h1>Your gateway to learning.</h1>
+          </div>
+          <div class="footer-social">
+            <h2>Contact Us</h2>
+            <a href="https://instagram.com/fredericoderosari" target="_blank" class="social-icon instagram">
+              <img src="img/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://linkedin.com/in/frederico-de-rosari-7b9a58282/" target="_blank" class="social-icon linkedin">
+              <img src="img/linkedin-icon.png" alt="LinkedIn">
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Knowledge Pulse. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
